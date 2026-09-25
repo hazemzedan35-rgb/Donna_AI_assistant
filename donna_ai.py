@@ -17,7 +17,7 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 # this mean use the connection that I got to generate an answer then store it in a variable called response
 response =  client.models.generate_content(
     # the version of ai that will be used to generate the answer
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
 
     # my question 
     contents="what is python"
