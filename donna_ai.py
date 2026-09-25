@@ -12,7 +12,7 @@ from google import genai
 load_dotenv()
 
 # open a connection to google and use my api_key as id      # go check this place that that is named as "GEMINI_API_KEY" and give me its value 
-client = genai.client(api_key=os.getenv("GEMINI_API_KEY"))
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 # this mean use the connection that I got to generate an answer then store it in a variable called response
 response =  client.models.generate_content(
