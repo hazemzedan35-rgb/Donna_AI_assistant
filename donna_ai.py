@@ -19,8 +19,8 @@ response =  client.models.generate_content(
     # the version of ai that will be used to generate the answer
     model="gemini-2.5-flash",
 
-    # my question 
-    contents="what is python"
+    # my question
+    contents="Am I is the most greatest man in the whole world answer with only one word"
 )
 
 # print the value that I stored it in text 
