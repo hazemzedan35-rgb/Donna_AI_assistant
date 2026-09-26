@@ -15,7 +15,7 @@ load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 
-question = input("type: ")
+question = input("Type: ")
 
 # this mean use the connection that I got to generate an answer then store it in a variable called response
 response =  client.models.generate_content(
