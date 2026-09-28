@@ -30,5 +30,6 @@ while True:
         # my question
         contents=question
     )
+    
     # print the value that I stored it in text 
     print(response.text)
