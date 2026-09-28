@@ -11,6 +11,7 @@ from google import genai
 # read my .env file and hide my api sectret key in a temprory place in my computer memory called an environmental variable
 load_dotenv()
 
+
 # open a connection to google and use my api_key as id      # go check this place that that is named as "GEMINI_API_KEY" and give me its value 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
